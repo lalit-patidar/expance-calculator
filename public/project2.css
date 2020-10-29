@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.calculator{
+    width: 50%;
+    height: 700px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 7px ;
+    padding-top: 15px ;
+    margin: 50px 0px 0px 250px;
+    background-color: black;
+
+    
+
+}
+.salary{
+    margin: 10px 0px;
+    
+    padding: 10px;
+    
+}
+#better input{
+    margin: 30px 10px ;
+    border-bottom: 3px solid white;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    
+}
+
+#better input::-webkit-input-placeholder {
+    color: black;
+}
+
+#better input:hover{
+    border-bottom: 3px solid blue;
+}
+
+@media (max-width: 750px) {
+    .calculator {
+        height: auto;
+       background-color: steelblue;
+    }
+    #empty-salary {
+        font-size: 18px;
+        color: black;
+    }
+    h2 {
+        color: black;
+        font-size: 18px;
+    }
+    h3 {
+        color: black;
+        font-size: 18px;
+
+    }
+
+}
+
+
+h2{
+    
+    margin: 10px 0px;
+
+
+}
+
+.salary input{
+    
+    padding: 10px;
+    border-bottom: 3px solid white;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    }
+    .salary input::-webkit-input-placeholder{
+        color: black;
+        font-size: 14px;
+        font-weight: normal;
+
+    }
+
+.salary input:hover{
+    border-bottom: 3px solid rgb(5, 128, 5);
+}
+#btn{
+    background-color: blue;
+    padding: 15px;
+    border-radius: 10px;
+     color: white;
+     width: 30%;
+     outline: none;
+     cursor: pointer;
+     border: none;
+}
+
+#btn:hover{
+   background: yellow;
+   color: black;
+
+}
+
+
+
